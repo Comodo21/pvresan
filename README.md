@@ -1,4 +1,4 @@
-<b> pvresan Intelligent </b>
+<h1> pvresan Intelligent </h1>
 
 Install 
 
@@ -12,7 +12,7 @@ sudo luarocks install ansicolors
 sudo luarocks install serpent
 git clone https://github.com/Comodo21/pvresan
 cd pvresan
-git clone
+screen lua bot.lua
 </pre>
 
 

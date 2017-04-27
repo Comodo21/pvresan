@@ -34,20 +34,24 @@ screen lua bot.lua
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/Self-BotV2.git && cd Self-BotV2 && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+sudo apt-get update && sudo apt-get install lua5.1 luarocks lua-socket lua-sec redis-server curl  &&  sudo luarocks install oauth  &&  sudo luarocks install redis-lua  &&  sudo luarocks install lua-cjson  &&  sudo luarocks install ansicolors  &&  sudo luarocks install serpent  &&  git clone https://github.com/Comodo21/pvresan  &&  cd pvresan  &&  screen lua bot.lua 
 ```
 
 * * *
 
-### Sudo And Bot
+### set Information And Pvresan
 
-Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
+Open config.lua and add your your token/sudo id/sudo us/gp us/ to the "config" section in the following format:
 ```
-    sudo_users = {
-    157059515,
-    0,
-    YourID
-  }
+ bot_token = "350068970:AAGmCVq2x7fi6dBszVOu6Y_04azXQGtNds"
+send_api = "https://api.telegram.org/bot"..bot_token
+bot_version = "6.0"
+sudo_name = "Engineer vahid chavoshi"
+sudo_id = 232504827
+admingp = -1001110269158
+sudo_num = "989031982717"
+sudo_user = "comodo21"
+sudo_ch = "BugSecurity"
 ```
 add your ID at line 4 and 131 in bot.lua
 Then restart or reload.

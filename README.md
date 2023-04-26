@@ -1,5 +1,5 @@
 
-# [Pvresan-Bot](https://t.me/BugSecurity)
+# [Pvresan-Bot](https://t.me)
 
 Professional Pvresan-Bot Based On NEW Api
 
@@ -46,10 +46,10 @@ Open config.lua and add your your token/sudo id/sudo us/gp us/ to the "config" s
  bot_token = "350068970:AAGmCVq2x7fi6dBszVOu6Y_04azXQGtNds"
 send_api = "https://api.telegram.org/bot"..bot_token
 bot_version = "6.0"
-sudo_name = "Engineer vahid chavoshi"
+sudo_name = "Engineer vahid"
 sudo_id = 232504827
 admingp = -1001110269158
-sudo_num = "989031982717"
+sudo_num = "989******"
 sudo_user = "comodo21"
 sudo_ch = "BugSecurity"
 ```
@@ -61,7 +61,7 @@ Then restart or reload.
 More information [GP Development](https://t.me/joinchat/AAAAAEGGbzvkH92lwfah7g)
 
 # Special thanks to
-[Ex3ER](https://telegram.me/Ex3ER)
+[Ex3ER](https://telegram.me)
 
 
 * * *
@@ -69,6 +69,6 @@ More information [GP Development](https://t.me/joinchat/AAAAAEGGbzvkH92lwfah7g)
 
 ### Our Telegram channel:
 
-[BugSecurity](https://t.me/BugSecurity)
+[BugSecurity](https://t.me)
 
 
